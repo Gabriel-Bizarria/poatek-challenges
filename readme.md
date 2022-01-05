@@ -14,4 +14,6 @@ it might start downloading some Gradle files, and you might need to install the
 the <i>JDK</i>(Java Development Kit) 16 too, but the IDEA do it all automatically.
 </p>
 <br>
-<center><img src="https://media-exp1.licdn.com/dms/image/C4D0BAQFoKfqCPqXRsg/company-logo_200_200/0/1638543851498?e=1649289600&v=beta&t=SMBsrsyt5jJHXW19mJpkj304ubnaFDIH2SMbPeWtpNI"></center>
+<div align = "center" style="display: inline_block"><br>
+  <img allign = "center" alt = "DEVICON" height = "200" width = "200" src = "https://media-exp1.licdn.com/dms/image/C4D0BAQFoKfqCPqXRsg/company-logo_200_200/0/1638543851498?e=1649289600&v=beta&t=SMBsrsyt5jJHXW19mJpkj304ubnaFDIH2SMbPeWtpNI" />
+</div>
