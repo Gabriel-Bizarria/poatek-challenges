@@ -21,11 +21,13 @@ fun main(args: Array<String>) {
     //Determines the average height of these students
     val averageHeight = olderThirteen.sumOf{ it.height } / olderThirteen.size
 
-    println("A média de altura entre os alunos com 13 anos ou mais é $averageHeight.")
-    println("E essa é a lista de estudantes abaixo dessa média:")
+    //Height formatted from centimeters to meters
+    val averageHeightMeters = averageHeight.toDouble()/100
 
-    olderThirteen.filter { it.height < averageHeight }.forEach { println(it.name) }
+    println("A média de altura entre os alunos com 13 anos ou mais, é ${averageHeightMeters}m.")
+    println("E essa é a lista de estudantes acima de 13 anos que estão abaixo da média:")
 
+    olderThirteen.filter { it.height < averageHeight }.forEach { println("- ${it.name}") }
 }
 
 /*[[“Bruno”, 170, 14], [“Leonardo”, 174, 21], [“Juan”, 156, 12], [“Juliana”, 166, 13],

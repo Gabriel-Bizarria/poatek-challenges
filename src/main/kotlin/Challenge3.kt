@@ -9,7 +9,6 @@ enum class FuelTypes(var actualPrice: Double) {
 //Class that defines the atributes and methods of the Fuel Pump
 class FuelPump(var fuelType: FuelTypes = FuelTypes.STANDART, var fuelPrice: Double, var fuelQuantity: Double){
 
-    //Seta o preço do combustível
     fun setPrice(fuelType: FuelTypes, price: Double){
         fuelType.actualPrice = price
         this.fuelPrice = fuelType.actualPrice
