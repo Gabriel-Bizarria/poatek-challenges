@@ -7,11 +7,11 @@ To run it, you need to install the IDEA in this
 </p>
 <p>
 After you installed the program and clone this repository into your own computer, 
-you need to enter in the IDEA, and open the file cloned. To do this, in the IDEA 
-opened, go in <i>File</i>, on the top left, then click <i>Open</i>, and in the 
-window, find where you cloned the repository and open it. After that
-it might start downloading some Gradle files, and you might need to install the 
-the <i>JDK</i>(Java Development Kit) 16 too, but the IDEA do it all automatically.
+you need to enter the IDEA, and open the cloned file. To do this, in the IDEA 
+opened, go in File, on the top left, then click Open, and in the window, find 
+where you cloned the repository and open it. After that it might start downloading
+some Gradle files, and you might need to install the <i>JDK</i>(Java Development 
+Kit) 16 too, but the IDEA does it all automatically.
 </p>
 <br>
 <div align = "center" style="display: inline_block"><br>
